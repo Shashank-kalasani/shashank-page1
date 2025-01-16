@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List</title>
+    <style>
+        .text{
+            display: flex;
+            text-align: center;
+        }
+        .cal{
+            margin-left: 170px;
+            font-size: 20px;
+        }
+        .js-list{
+
+           margin-left: 10px;
+           font-size: 20px; 
+        }
+        .del{
+            font-size: 20px;
+             margin-left:85px ;
+             background-color: darkred;
+             color: white;
+        }
+        .add{
+            font-size: 20px;
+            margin-left: 15px;
+            background-color: green;
+            color: white;
+        }
+        .js-input{
+            font-size: 20px;
+        }
+    .js-cal{
+        font-size: 20px;
+        margin-left: 15px;
+    }
+    </style>
+</head>
+
+<body>
+    <p>Todo List</p>
+    <input placeholder="Todo name" class="js-input"> <input type="date" class="js-cal"><button onclick="
+        addTodo();
+        addcal();
+    " class="add">Add</button>
+    <div class="text">
+        <div class="js-list"></div>
+        <div class="cal" ></div>
+    </div>
+    <script src="todo-list.js"></script>
+</body>
+
+</html>
