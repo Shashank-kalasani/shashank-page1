@@ -7,6 +7,7 @@ function rendertodo() {
 
     let todolistHTML = '';
 
+    
     for (let i = 0; i < todolist.length; i++) {
         const todo = todolist[i];
         const html = `<p>${todo}</p>`
