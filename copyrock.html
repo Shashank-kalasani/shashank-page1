@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>copyRock</title>
+  <link rel="stylesheet" href="copyrock.css">
+</head>
+
+<body>
+  <h1 class="head">Rock Paper and Scissor</h1>
+  <div class="buttons">
+    <div class="button">
+      <button onclick="User_choice='Rock'
+      playgame();
+       "><img src="Rock.png" alt=""></button>
+    </div>
+    <div class="button">
+      <button onclick="User_choice='Paper'
+      playgame();
+       "><img src="Paper.png" alt=""></button>
+    </div>
+    <div class="button">
+      <button onclick="User_choice='Scissor'
+      playgame();
+       "><img src="Scissor.png" alt=""></button>
+    </div>
+  </div>
+  <h1 class="js-result"></h1>
+  <p class="js-choice"></p>
+  <p class="js-score"></p>
+  <button onclick="
+    score.loses=0 ;
+    score.wins=0;
+    score.ties=0;
+    document.querySelector('.js-score').innerHTML=`Wins:${score.wins},Losses:${score.loses},Ties:${score.ties}`;
+    document.querySelector('.js-choice').innerHTML=` `;
+    " class="reset">Reset score</button>
+  <button class="Autoplay" onclick="autoplay()">Auto play</button>
+  <button onclick="stopautoplay()" class="Autoplay">StopAutoplay</button>
+  <script src="copyrock.js"></script>
+</body>
+
+</html>

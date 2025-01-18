@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial;
+}
+
+.buttons {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+img {
+    cursor: pointer;
+    height: 120px;
+    width: 120px;
+    border: solid 3px white;
+    border-radius: 150px;
+    margin: 10px;
+}
+
+button {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+.move {
+    height: 70px;
+    border-radius: 600px;
+    margin: 10px;
+}
+
+.reset {
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+}
+.Autoplay{
+    width: 150px;
+    height: 40px;
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
