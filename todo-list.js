@@ -1,4 +1,4 @@
-const todolist = ['Home work'];
+const todolist = [];
 const cal_list=['16-01-2025'];
 rendertodo();
 rendercal();
